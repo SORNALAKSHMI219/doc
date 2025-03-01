@@ -7,10 +7,16 @@
   --surface-gradient: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
 }
 
+
 body {
-  background: var(--surface-gradient);
-  min-height: 100vh;
+  background-image: url('path/to/your/image.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 100vh; 
+  margin: 0;
 }
+
 
 @layer components {
   .btn-primary {
